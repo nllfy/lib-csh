@@ -1,6 +1,6 @@
 # lib-ssn
 
-lib-ssn is a library that makes networking and security easiesr in c
+lib-ssn is a library that makes networking and security easier in c
 
 ---
 
