@@ -1,6 +1,6 @@
-# lib-csh
+# lib-ssn
 
-lib-csh is a library that makes networking and security easiesr in c
+lib-ssn is a library that makes networking and security easiesr in c
 
 ---
 
@@ -18,10 +18,10 @@ lib-csh is a library that makes networking and security easiesr in c
 
 Provide an overview of the project, its purpose, and its features.  
 For example:
-> `lib-csh` is a library designed to code networks and cyber security in c it is the libraries designed for the csh-framework in c
+> `lib-ssn` is a library designed to code networks and cyber security in c it is the libraries designed for the csh-framework in c
 
 ### Features
-- it makes entworking in udp and tcp easier in c
+- it makes nettworking in udp and tcp easier in c
 - it is Open-Source so anybody can contribute to make it better
 - it makes it much easier for people who use c to make cyber security tools
 
@@ -32,12 +32,12 @@ For example:
 ### Installation Steps
 
     cd /path/to/your/project/
-    git clone https://github.com/nllfy/lib-csh.git
+    git clone https://github.com/nllfy/lib-ssn.git
 
 ## Usage
 
     #include <stdio.h>
-    #include "lib-csh/network.h"
+    #include "lib-ssn/network.h"
 
     int main(void)
     {
