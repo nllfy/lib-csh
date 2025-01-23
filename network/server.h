@@ -40,6 +40,11 @@ void tcp_server(int port, char msg[1024])
             fatal("accepting", false);
         }
 
+        else
+        {
+            printf("Got connection from %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+        }
+        
         send(new_sockfd, msg, strlen(msg), 0);
         close(new_sockfd);
     }
