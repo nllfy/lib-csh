@@ -1,6 +1,6 @@
 # lib-csh
 
-A brief description of your project. Explain what **lib-csh** does and why it is useful.
+lib-csh is a library that makes networking and security easiesr in c
 
 ---
 
@@ -9,10 +9,8 @@ A brief description of your project. Explain what **lib-csh** does and why it is
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [API Reference](#api-reference)
 5. [Contributing](#contributing)
 6. [License](#license)
-7. [Contact](#contact)
 
 ---
 
@@ -36,7 +34,7 @@ For example:
     cd /path/to/your/project/
     git clone https://github.com/nllfy/lib-csh.git
 
-For example:
+## Usage
 
     #include <stdio.h>
     #include "lib-csh/network.h"
